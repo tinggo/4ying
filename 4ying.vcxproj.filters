@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{25d82177-569f-4e78-8925-e87e7ade7893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\math">
+      <UniqueIdentifier>{db2755c2-3924-4e4c-8749-9898b507df25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\gdi">
+      <UniqueIdentifier>{f9f08a4f-0070-4ddd-825b-9f19d69c37fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\winmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\matrix.cpp">
+      <Filter>source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vector.cpp">
+      <Filter>source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="source\painter.cpp">
+      <Filter>source\gdi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\matrix.h">
+      <Filter>source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vector.h">
+      <Filter>source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\painter.h">
+      <Filter>source\gdi</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

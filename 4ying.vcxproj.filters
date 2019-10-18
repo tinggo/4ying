@@ -24,6 +24,9 @@
     <ClCompile Include="source\painter.cpp">
       <Filter>source\gdi</Filter>
     </ClCompile>
+    <ClCompile Include="source\mathutil.cpp">
+      <Filter>source\math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\matrix.h">
@@ -34,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="source\painter.h">
       <Filter>source\gdi</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mathutil.h">
+      <Filter>source\math</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

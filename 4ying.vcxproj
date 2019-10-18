@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -157,12 +157,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\mathutil.cpp" />
     <ClCompile Include="source\matrix.cpp" />
     <ClCompile Include="source\painter.cpp" />
     <ClCompile Include="source\vector.cpp" />
     <ClCompile Include="source\winmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\mathutil.h" />
     <ClInclude Include="source\matrix.h" />
     <ClInclude Include="source\painter.h" />
     <ClInclude Include="source\vector.h" />

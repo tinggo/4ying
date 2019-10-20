@@ -10,6 +10,9 @@
     <Filter Include="source\gdi">
       <UniqueIdentifier>{f9f08a4f-0070-4ddd-825b-9f19d69c37fa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\gl">
+      <UniqueIdentifier>{d6b63817-8e3c-4007-b584-72567a99b6fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\winmain.cpp">
@@ -27,6 +30,9 @@
     <ClCompile Include="source\mathutil.cpp">
       <Filter>source\math</Filter>
     </ClCompile>
+    <ClCompile Include="source\gl.cpp">
+      <Filter>source\gl</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\matrix.h">
@@ -40,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="source\mathutil.h">
       <Filter>source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gl.h">
+      <Filter>source\gl</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

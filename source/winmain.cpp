@@ -12,7 +12,9 @@ LRESULT CALLBACK MainWindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM l
     case WM_PAINT:
     {
         PAINTSTRUCT ps;
-        HDC hdc = BeginPaint(hWnd, &ps);        
+        HDC hdc = BeginPaint(hWnd, &ps);
+        MoveToEx(hdc, 0, 0, NULL);
+        LineTo(hdc, 1000, 100);
         EndPaint(hWnd, &ps);
     }
     break;
@@ -37,7 +39,7 @@ void CreateMainWindow(HINSTANCE instance, int cmdShow)
     wc.lpszClassName = gMainWindowClass;
     wc.hIcon = LoadIcon(NULL, IDI_APPLICATION);
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
-    wc.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH);
+    wc.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
     wc.lpszMenuName = NULL;
     RegisterClass( &wc );
 

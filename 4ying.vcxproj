@@ -157,6 +157,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\gl.cpp" />
     <ClCompile Include="source\mathutil.cpp" />
     <ClCompile Include="source\matrix.cpp" />
     <ClCompile Include="source\painter.cpp" />
@@ -164,6 +165,7 @@
     <ClCompile Include="source\winmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\gl.h" />
     <ClInclude Include="source\mathutil.h" />
     <ClInclude Include="source\matrix.h" />
     <ClInclude Include="source\painter.h" />
